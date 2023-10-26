@@ -1,0 +1,185 @@
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('/public/MulatAddis-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Aspekta';
+  src: url('/public/Aspekta-500.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/public/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, input, span, div, label,button {
+  font-family: 'Inter' 
+}
+
+code {
+  font-family: 'Mulat Addis Sans Serif Font',
+    monospace;
+}
+
+.main {
+  background-color: #063232;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: #fff;
+  width: 100%;
+}
+
+input {
+  border: 1px solid #f5f6f633 !important;
+  box-shadow: none !important;
+}
+
+input:hover{
+  border: 1px solid #f5f6f654 !important;
+}
+
+input:focus{
+  border: 1px solid #f5f6f633 !important;
+}
+
+input {
+  border: 1px solid #f5f6f633 !important;
+  box-shadow: none !important;
+}
+
+input:hover{
+  border: 1px solid #f5f6f654 !important;
+}
+
+input:focus{
+  border: 1px solid #f5f6f633 !important;
+}
+
+.sui-select {
+  border: 1px solid #f5f6f633 !important;
+  box-shadow: none !important;
+}
+.sui-select .chakra-button[aria-expanded=true]{
+  border: 1px solid #f5f6f633 !important; 
+  box-shadow: none;
+}
+.sui-select .css-r6z5ec {
+  /* position: relative !important; */
+  transform: none !important;
+  top: 80px !important;
+}
+
+.sui-select .chakra-button {
+  border-radius: 0px;
+}
+.sui-select .chakra-button[data-focus]{
+  border: 1px solid #f5f6f633 !important; 
+  box-shadow: none;
+}
+
+.sui-select:hover {
+  border: 1px solid #f5f6f633 !important;
+}
+
+.sui-select:focus {
+  border: 1px solid #f5f6f633 !important;
+}
+
+.chakra-menu__menu-list {
+  color: #333!important;
+  font-weight: 500;
+}
+
+.css-h6bblp {
+  background: #EB7C56 !important;
+}
+
+.step-header {
+  text-align: center !important;
+  font-family: 'Inter' !important;
+}
+.custom-header img{
+  display: block !important;
+}
+.logo {
+  text-align: center !important;
+  padding-left: 60px !important; 
+}
+
+.custom-header {
+  position: fixed !important;
+  top: 0px;
+  z-index: 10000000;
+  background-color: #063232;
+  width: 100%;
+}
+  
+.logo img {
+  display: block !important;
+}
+
+.css-0:empty {
+  display: none;
+}
+
+.custom-progress {
+  position: sticky !important;
+  top: 0px;
+}
+
+.sui-select div{
+  border-radius: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-color: #5e5d5d;
+}
+
+.sui-select div button {
+  border-bottom: 1px solid #999797;
+  background: #5e5d5d;
+  padding: 15px;
+  color: white;
+}
+
+.chakra-button {
+  font-size: 16px !important; 
+
+}
+
+.chakra-text {
+  font-weight: 300;
+}
+
+
+@media screen and (max-width: 600px) {
+  .chakra-button {
+    font-size: 16px !important; 
+    position: sticky !important;
+    -webkit-position: absolute !important;
+    display: block;
+  }
+}
+
+
+
+
+
